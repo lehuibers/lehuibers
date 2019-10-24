@@ -1,0 +1,162 @@
+body {
+	background-image: url("1.png");
+    background-attachment: fixed;
+}
+header {
+	margin-left: auto;
+    width:95%;
+	margin-right: auto;
+    margin-bottom: 3px;
+	border: solid white 1px;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-left: 0px;
+}
+h1 {
+	font-size: 40px;
+	text-align: center;
+}
+nav {
+	margin-left: auto;
+    width:80%;
+	margin-right: auto;
+	border: solid white 1px;
+	background-color: rgba(255, 255, 255, 0.5);
+	padding-right: 120px;
+	margin-bottom: 10px;
+}
+nav a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: courier, arial;
+	font-weight: 700;
+	font-size: 20px;
+
+}
+nav a:hover {
+	color: rgba(0, 0, 0);
+}
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+nav li {
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 0%;
+	position: relative;
+	
+}
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	bottom: 0px;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+	width: 100%
+}
+article {
+	margin-left: auto;
+    width:70%;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border: solid white 1px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding-left: 5px;
+}
+article video {
+	padding-left: 20px;
+}
+article img {
+    	margin-left: auto;
+    width:100%;
+	margin-right: auto;
+}
+p {
+	font-family: arial;
+	font-size: 20px;
+	
+}
+footer {
+	margin-bottom: 3px;
+		margin-left: auto;
+    width:80%;
+	margin-right: auto;
+	border: solid white 1px;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer a:hover::before {
+	width: 100%
+}
+footer ul {
+	list-style: none;
+}
+footer li {
+	display: inline-block;
+	margin-left: 4%;
+	margin-right: 10%;
+	position: relative;
+}
+footer a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	width: 100%;
+	background-color: black;
+	position: absolute;
+	top: 35px;
+	width: 0%;
+	transition: all ease-in-out 250ms;
+}
+
+footer  {
+text-align: center;
+    
+}	
+footer a {
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: courier, arial;
+	font-weight: 700;
+	font-size: 20px;
+    padding-right: 0%;
+    
+}
+
+
+
+#klein {
+    width: 100%;
+}
+#klein img {
+    width: 50%;
+}
+#matt {
+    width: 100%;
+}
+#matt img {
+    width: 10%;
+	
+}
+footer form input {
+border: solid orange 2px;
+    background-color: orange;
+}
+    footer form input:hover {
+border: solid orange 2px;
+    background-color: darkorange;
+   
+}
+footer form textarea {
+border: solid orange 2px;
+}
+    
+    

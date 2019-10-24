@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>Levi Huibers</title>
+       <link rel="icon" type="image/png" href="icon.ico">
+     <meta name="Author" content="Levi Huibers">
+      <meta name=¨viewport¨ content=¨width=device-width, initial-scale=1.0¨>
+	 <link rel="stylesheet" type="text/css" href="lh.css">
+</head>
+<body>
+
+    <header>
+	   <h1>
+		Levi Huibers
+	   </h1>	
+    </header>
+<nav>
+
+	<ul>  
+	<li><a href="index.html">Home</a></li>	
+	<li><a href="hobby.html">Hobby's</a></li>
+	<li><a href="vakantie.html">Vakantie</a></li>
+	<li><a href="beerpong.html">Beerpong</a></li>
+	<li><a href="lh6.html">sport</a></li>
+	</ul>
+	
+</nav>
+<article>
+<h2>Over mij</h2>
+	<p>
+		Mijn naam is Levi Huibers. Ik ben 16 jaar oud. Ik woon in Duitsland. Ik zit op het Blariacum college in klas H4r.
+		Ik woon met mijn vader(54), moeder(51), broer(19), twee honden, een kat, en drie kippen.
+	</p>
+	<img src="familie.png" title="Familie (Sommige fotos heb ik vanuit een album moeten fotograferen dus ze zijn niet heel goed)" alt="Familie">
+	<h2>Ik door de jaren heen</h2>
+	<p>Ik weet niet precies hoe oud ik op elke foto was. Ik weet alleen dat ik die laatste foto vijf minuten geleden genomen heb (16 dus).</p>
+	<img src="leeftijd.png" title="Levi (Sommige fotos heb ik vanuit een album moeten fotograferen dus ze zijn niet heel goed)" alt="Levi op verschillende leeftijden">
+	
+</article>
+<footer>
+<h2> Contact me:</h2>
+    <form Action="mailto:lehuibers@ogvo.nl" method="POST" enctype="text/plain">
+	Vragen
+	
+	<Br>
+	<textarea name="Vraag">
+	
+	</textarea>
+	<BR>
+	<INPUT type="submit" value="Verstuur"> 
+</form>
+<ul>
+<li><a href="mailto:lehuibers@ogvo.nl">lehuibers@ogvo.nl</a></li>
+<li><a href="https://www.instagram.com/levi_huibers/">@Levi_Huibers</a></li>
+<li><a href="https://www.google.com/search?safe=strict&rlz=1C1NDCM_nlDE719DE719&biw=1921&bih=463&tbm=isch&sa=1&ei=5J-sXZPODOuv_QahgoyIAw&q=hoi&oq=hoi&gs_l=img.3..0l10.1683.2127..2423...0.0..0.161.471.0j3......0....1..gws-wiz-img.......0i67.PSz1GEn7eIc&ved=0ahUKEwiT0P_VtKvlAhXrV98KHSEBAzEQ4dUDCAc&uact=5#imgrc=wKVtz2XYSJ6BLM:">077-327-09-17</a></li>
+</ul>
+</footer>
+</body>
